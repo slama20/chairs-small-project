@@ -1,0 +1,71 @@
+
+@media(max-width:980px){
+    header {
+        grid-template-columns: 1fr;
+        padding: 48px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        row-gap: 48px;
+    }
+
+    img {
+        width: 80%;
+        align-self: center;
+    }
+
+    .grid-3-cols{
+        grid-template-columns: 1fr;
+        padding: 48px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        row-gap: 48px;
+
+    }
+
+    .feature{
+        text-align: center;
+        padding: 96px;
+    }
+
+    .testimonial-section {
+        margin: 96px;
+    }
+
+    .grid-2-cols{
+        grid-template-columns: 1fr;
+    }
+
+    .testmmials-img{
+        width: 100%;
+        height: 80%;
+    }
+
+    .card-section{
+        text-align: center;
+    }
+    
+    .card-h2{
+        margin-top: 48px;
+    }
+
+    .chair{
+        margin: 24px 96px;
+    }
+      
+    .chair img{
+        width: 100%;
+    }
+
+    .chair-price{
+        justify-content:normal;
+        gap: 24px;
+    }
+    
+    footer {
+        margin-bottom: 24px;
+        font-size: 12px;
+        padding: 48px; 
+    }
+}
